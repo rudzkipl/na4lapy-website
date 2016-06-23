@@ -17,8 +17,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Lucid Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <meta name="description" content="\"Na4Łapy\" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności."/>
+    <meta name="robots" content="index,nofollow">
+    
+     <!-- Scripts files -->
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
@@ -46,6 +48,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
         });
     </script>
+     <script type="text/javascript">
+    function gen_mail_to_link(lhs,rhs,subject) {
+        document.write("<a href=\"mailto");
+        document.write(":" + lhs + "@");
+        document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/a>");
+    }
+	
+	function gen_tel(lhs,rhs,subject) {
+        document.write( "Tel: " + lhs + " ");
+        document.write(rhs + " " + subject);
+    }
+</script>
     <!---- start-smoth-scrolling---->
 
 </head>
@@ -87,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz
                     przekazywać datki na zwierzęta w formie elektronicznych mikropłatności.</p>
                 <a class="download"
-                   href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy&hl=pl">POBIERZ
+                   href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy">POBIERZ
                     TERAZ</a>
 
                 <a class="view hvr-bounce-to-left" href="#features">O APLIKACJI</a>
@@ -157,11 +171,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/responsiveslides.min.js"></script>
 <script>
     // You can also use "$(window).load(function() {"
-    $(function () {
+   // $(function () {
+	   $(window).load(function() {
         $("#slider2").responsiveSlides({
             auto: true,
             pager: true,
-            speed: 300,
+			pauseControls: true,
+            speed: 1000,
+			timeout: 5000, 
             namespace: "callbacks",
         });
     });
@@ -262,8 +279,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                     <li>
                         <div class="col-md-6 pricing-plans">
-                            <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The
-                                way you're going to move is quite dictated by your shoes.</p>
+                            <p>Denerwuje się gdy słyszę, że w tym kraju nic się nie da zrobić i, że nic od nas nie zależy. Dlatego ile tylko mogę wspieram zespół i projekt Na4Łapy</p>
                             <div class="pic1">
                                 <img src="images/m4.jpg" alt=""/>
                             </div>
@@ -290,8 +306,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="theme">
     <div class="container">
         <h3 class="wow bounceIn" data-wow-delay="0.4s"><span>Pobierz aplikację</span> na system Android ;-)</h3>
-        <a class="view hvr-bounce-to-left wow bounceIn" data-wow-delay="0.4s" href="#">O APLIKACJI</a>
-        <a class="download wow bounceIn" data-wow-delay="0.4s" href="#">POBIERZ APLIKACJĘ</a>
+        <a class="view hvr-bounce-to-left wow bounceIn" data-wow-delay="0.4s" href="#features">O APLIKACJI</a>
+        <a class="download wow bounceIn" data-wow-delay="0.4s" href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy">POBIERZ APLIKACJĘ</a>
     </div>
 </div>
 <!---->
@@ -322,7 +338,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
                 <div class="icon1"></div>
                 <p>Katarzyna Swat </p>
-                <p>Tel: 600 255 751 </p>
+                <p><script type="text/javascript"> 
+    gen_tel('600','255','751');
+</script> </p>
             </div>
             <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
                 <div class="icon2"></div>
@@ -333,7 +351,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
                 <div class="icon3"></div>
-                <a href="mailto:example.com">k.swat@volanto.pl</a>
+               
+                <script type="text/javascript"> 
+    gen_mail_to_link('k.swat','volanto.pl','Odnośnie aplikacji na4łapy...');
+</script>
+            
             </div>
             <!-- <div class="clearfix"></div>-->
         </div>
@@ -358,21 +380,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!---->
 <div class="footer text-center">
     <div class="container">
-        <p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; 2015 NA4ŁAPY All rights reserved | Template by <a
+        <p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; <?php echo date("Y"); ?> NA4ŁAPY All rights reserved | Template by <a
                 href="http://w3layouts.com"> W3layouts</a></p>
     </div>
 </div>
 <!---->
 <script type="text/javascript">
     $(document).ready(function () {
-        /*
+       
          var defaults = {
          containerID: 'toTop', // fading element id
          containerHoverID: 'toTopHover', // fading element hover id
          scrollSpeed: 1200,
          easingType: 'linear'
          };
-         */
+         
         $().UItoTop({easingType: 'easeOutQuart'});
     });
 </script>
