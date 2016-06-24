@@ -825,6 +825,10 @@ color: #fff;
     background-color: #000;
 
 }
+.col-md-6.banner-text.wow.fadeInRight img {
+	margin-right: 5px;
+}
+
 
 
 
@@ -1290,9 +1294,9 @@ font-size: 0.65em;
 font-size: 1.5em;
 }
 .banner-text p {
-font-size: 0.9em;
-overflow: hidden;
-height: 53px;
+	font-size: 0.9em;
+	overflow: hidden;
+	height: 110px;
 }
 a.download, a.view {
 font-size: 0.75em;
@@ -1305,6 +1309,7 @@ margin-top: 2.5em;
 }
 .banner {
 min-height: 335px;
+background-position:-200px;
 }
 .features-head h4, .device-text h4, .device-text-bottom h4, .pricing-text h4, .pricing-text-bottom h4, .contact-text h4 {
 font-size: 0.75em;
@@ -1424,6 +1429,10 @@ font-size: 1em;
 	margin-top: 2px;
 	margin-bottom: 2px;
 }
+.auto-width {
+	width: auto;
+}
+
 
 }
 @media(max-width: 320px){

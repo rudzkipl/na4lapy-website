@@ -38,16 +38,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--webfont-->
     <!--animated-css-->
     <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-    <script src="js/wow.min.js"></script>
+    <script async  src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
     <!--/animated-css-->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic,700italic'
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic,700italic&subset=latin-ext'
           rel='stylesheet' type='text/css'>
     <!---- start-smoth-scrolling---->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
+    <script async  type="text/javascript" src="js/move-top.js"></script>
+    <script async  type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -102,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="clearfix"></div>
         </div>
         <div class="banner-info">
-            <div class="col-md-6 banner-text wow fadeInRight" data-wow-delay="0.5s">
+            <div class="col-md-6 banner-text wow fadeInRight auto-width" data-wow-delay="0.5s">
                 <h1>Aplikacja mobilna Na4Łapy</h1>
                 <p>"Na4Łapy" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką
                     gdańskiego
@@ -110,14 +110,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     przekazywać datki na zwierzęta w formie elektronicznych mikropłatności.</p>
                 <!--<a class="download"
                    href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy">POBIERZ
-                    TERAZ</a>-->
-                    <a class="view hvr-bounce-to-left scroll" href="#features">O APLIKACJI</a>
+                    TERAZ</a>
+                    <a class="view hvr-bounce-to-left scroll" href="#features">O APLIKACJI</a>-->
                     <a href='https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Na4Łapy w Sklep Play' src='images/google-play-badge.png'/></a>
                     <img class="grayed" alt='Dostępne wkrótce w iTunes' title='Dostępne wkrótce w iTunes' src='images/appstore.png'/>
 
                 
             </div>
-            <div class="col-md-6 banner-pic wow fadeInLeft" data-wow-delay="0.5s">
+            <div class="col-md-6 banner-pic wow fadeInLeft auto-width" data-wow-delay="0.5s">
                 <img src="images/phn.png" alt=""/>
             </div>
             <div class="clearfix"></div>
@@ -275,10 +275,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <div class="clearfix"></div>
                         </div>
                         <div class="col-md-6 pricing-plans">
-                            <p>Chcesz rozwijać swoje umiejętnośći programowania? Szukasz ciekawych projektów? DOŁĄCZ DO
-                                NAS ;-)</p>
+                            <p>Kocham psy i programowanie, więc praca nad aplikacją to dla mnie idealne połączenie. Mam nadzieję, że dzięki naszej pracy znajdą nowy dom.</p>
+                            <div class="pic1">
+                                <img src="images/m9.png" alt=""/>
+                            </div>
+                            <div class="pic-info">
+                                <h5>Wojciech Bilicki</h5>
+                                <span>PROGRAMISTA iOS</span><br>
+                               <!-- <a href="h#">PPROGRAMISTA iOS</a>-->
+                            </div>
                             <div class="clearfix"></div>
                         </div>
+                       
                         <div class="clearfix"></div>
                     </li>
                     <li>
@@ -321,11 +329,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                        <div class="col-md-6 pricing-plans">
-                            <p style="font-weight:600">Chcesz rozwijać swoje umiejętnośći programowania? Szukasz ciekawych projektów? DOŁĄCZ DO
-                                NAS ;-)</p>
+                        
+                         <div class="col-md-6 pricing-plans">
+                            <p>Na codzień tester aplikacji mobilnych, a hobbystycznie student informatyki na Politechnice Śląskiej. W projekcie zajmuję się programowaniem na platormę Android.</p>
+                             <div class="pic1">
+                                <img src="images/m8.jpg" alt=""/>
+                            </div>
+                            <div class="pic-info">
+                                <h5>Jakub Majcher</h5>
+                                <span>PROGRAMISTA - TESTER ANDROID</span><br>
+                               <!-- <a href="h#">PPROGRAMISTA iOS</a>-->
+                            </div>
+                            
                             <div class="clearfix"></div>
+                        </div><div class="clearfix"></div>
+                    </li>
+                       <li>
+                        <div class="text-center pricing-plans" >
+                           <p style="font-weight:600">Chcesz rozwijać swoje umiejętnośći programowania? Szukasz ciekawych projektów? <br> DOŁĄCZ DO
+                                NAS ;-)</p>
+                            
                         </div>
+                       
                         <div class="clearfix"></div>
                     </li>
                 </ul>
