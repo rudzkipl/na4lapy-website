@@ -347,7 +347,7 @@ background: url(../images/line.png) no-repeat 50% 100%;
   margin: 0;
   }
 #slider2 {
-	min-height: 225px;
+	min-height: 232px;
 }
 
 .rslides li {
@@ -407,7 +407,7 @@ background: url(../images/line.png) no-repeat 50% 100%;
 }
 ul.callbacks_tabs.callbacks1_tabs {
 	position: absolute;
-	bottom: -88%;
+	bottom: -66%;
 	  z-index: 999;
 	  left: 44%;
 }
@@ -819,6 +819,15 @@ color: #fff;
 	display:inline-block;
 
 }
+.grayed {
+	opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+    background-color: #000;
+
+}
+
+
+
 
 /*--responsive--*/
 @media (max-width: 1280px){
@@ -826,6 +835,8 @@ color: #fff;
 width: 55%;
 margin-top: 3em;
 }
+
+
 .about-device-bottom img {
 background-size: 100%;
 width: 100%;
@@ -906,7 +917,7 @@ margin-top: 6em;
 font-size: 1.4em;
 }
 .pricing {
-	min-height: 900px;
+	min-height: 600px;
 }
 .theme {
 padding: 3em 0;
@@ -930,6 +941,9 @@ bottom: 28%;
 }
 .map iframe {
 height: 415px;
+}
+.col-md-6.banner-text.wow.fadeInRight img {
+	max-height:43px;
 }
 }
 @media (max-width: 768px){
@@ -1029,7 +1043,7 @@ width: 80%;
 font-size: 1em;
 }
 .pricing {
-	min-height: 500px;
+	min-height: 550px;
 }
 ul.callbacks_tabs.callbacks1_tabs {
 bottom: -53%;
@@ -1072,6 +1086,9 @@ height: 116px;
 .contact-details input[type="submit"] {
 padding: 11px 1.7em;
 font-size: 0.85em;
+}
+.col-md-6.banner-text.wow.fadeInRight img {
+	max-height: 35px;
 }
 }
 @media (max-width: 640px){
@@ -1215,6 +1232,9 @@ font-size: 0.8em;
 .map iframe {
 height: 340px;
 }
+.col-md-6.banner-text.wow.fadeInRight img {
+	max-height: 31px;
+}
 }
 @media(max-width: 480px){
 span.menu:before {
@@ -1338,10 +1358,12 @@ width: 13%;
 padding-top: 0.5em;
 }
 .pricing {
-min-height: 500px;
+	min-height: 550px;
 }
 ul.callbacks_tabs.callbacks1_tabs {
-bottom: -11%;
+	bottom: 0px;
+	left:30%;
+	
 }
 .callbacks_here a:after {
 border: 4px solid #FFF;
@@ -1394,6 +1416,15 @@ padding:0;
 .footer p {
 font-size: 1em;
 }
+#slider2 {
+	min-height: 400px;
+}
+.col-md-6.banner-text.wow.fadeInRight img {
+	;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
 }
 @media(max-width: 320px){
 .top-menu ul {

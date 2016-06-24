@@ -82,7 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="top-menu">
                 <span class="menu"></span>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="/">Home</a></li>
                     <li><a class="scroll" href="#features">O aplikacji</a></li>
                     <li><a class="scroll" href="#about-bottom">Współpraca</a></li>
                     <li><a class="scroll" href="#testimonials">Zespół</a></li>
@@ -108,11 +108,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     gdańskiego
                     schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz
                     przekazywać datki na zwierzęta w formie elektronicznych mikropłatności.</p>
-                <a class="download"
+                <!--<a class="download"
                    href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy">POBIERZ
-                    TERAZ</a>
+                    TERAZ</a>-->
+                    <a class="view hvr-bounce-to-left scroll" href="#features">O APLIKACJI</a>
+                    <a href='https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Na4Łapy w Sklep Play' src='images/google-play-badge.png'/></a>
+                    <img class="grayed" alt='Dostępne wkrótce w iTunes' title='Dostępne wkrótce w iTunes' src='images/appstore.png'/>
 
-                <a class="view hvr-bounce-to-left" href="#features">O APLIKACJI</a>
+                
             </div>
             <div class="col-md-6 banner-pic wow fadeInLeft" data-wow-delay="0.5s">
                 <img src="images/phn.png" alt=""/>
@@ -383,7 +386,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="icon3"></div>
                
                 <script type="text/javascript"> 
-    gen_mail_to_link('k.swat','volanto.pl','Odnośnie aplikacji na4łapy...');
+    gen_mail_to_link('kontakt','na4lapy.org','Odnośnie aplikacji na4łapy...');
 </script>
             
             </div>
