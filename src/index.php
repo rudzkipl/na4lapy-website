@@ -1,3 +1,6 @@
+<?php 
+header("Cache-Control: max-age=86400"); // HTTP 1.1.
+?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -18,7 +21,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="description" content="\"Na4Łapy\" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności."/>
+    <meta name="keywords" content="na4lapy na4łapy na 4 lapy łapy schronisko adopcja zwierzęta pomoc aplikacja sklep play android ios mobile tinder" >
     <meta name="robots" content="index,nofollow">
+    <meta name="revisit-after" content="1 days">
+	<meta http-equiv="content-language" content="pl">
+	<meta name="author" content="na4lapy.org">
+	<meta name="Owner" CONTENT="na4lapy.org">
     
      <!-- Scripts files -->
     <script type="application/x-javascript"> addEventListener("load", function () {
@@ -153,12 +161,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="container">
         <div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.5s">
             <div class="device-text-bottom">
-                <h3>Współpraca i Opensource</h3>
-                <p>Obecnie jesteśmy na etapie dopracowywania aplikacji. Planujemy udostępnić kod aplikacji w przeciągu
-                    kilku miesięcy.
-                    Jeżeli jednak jesteś zainteresowany dodaniem do naszej aplikacji schroniska znajdującego się w
-                    Twojej okolicy - skontaktuj się z nami.
-                    Chętnie rozszerzymy naszą bazę i zespół ;-)</p>
+                <h3>Współpraca</h3>
+                <p>Obecnie jesteśmy na etapie rozwijania nowych funkcjonalności w aplikacji na system Android oraz iOS. Jeżeli jesteś zainteresowany dodaniem do naszej aplikacji schroniska znajdującego się w Twojej okolicy - skontaktuj się z nami. Chętnie rozszerzymy naszą bazę i zespół  ;-)</p>
             </div>
         </div>
         <div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.5s">
@@ -176,6 +180,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         $("#slider2").responsiveSlides({
             auto: true,
             pager: true,
+			pause: true,
 			pauseControls: true,
             speed: 1000,
 			timeout: 5000, 
@@ -203,18 +208,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="pic-info">
                                 <h5>Katarzyna Swat</h5>
-                                <a href="#">KIEROWNIK PROJEKTU</a>
+                                <span>KIEROWNIK PROJEKTU</span><br>
+                                <a href="https://volanto.pl/">Volanto</a>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="col-md-6 pricing-plans">
-                            <p>W projekcie aplikacji "Na4Łapy" zajmuje się.........</p>
+                            <p>Lubię kodować. Lubię zwierzaki. Fajnie jest móc połączyć jedno i drugie.</p>
                             <div class="pic1">
                                 <img src="images/pr2.png" alt=""/>
                             </div>
                             <div class="pic-info">
                                 <h5>Marek Wojtuszkiewicz</h5>
-                                <a href="#">LIDER TECHNICZNY</a>
+                               <span>LIDER TECHNICZNY</span>
+                                <!--<a href="#">LIDER TECHNICZNY</a>-->
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -230,7 +237,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="pic-info">
                                 <h5>Natalia Wróblewska</h5>
-                                <a href="#">PROGRAMISTA ANDROID</a>
+                                <span>PROGRAMISTA ANDROID</span>
+                                <!--<a href="#">PROGRAMISTA ANDROID</a>-->
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -243,7 +251,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </div>
                             <div class="pic-info">
                                 <h5>Małgorzata Syska</h5>
-                                <a href="#">PROGRAMISTA ANDROID</a>
+                                <span>PROGRAMISTA ANDROID</span>
+                               <!-- <a href="#">PROGRAMISTA ANDROID</a>-->
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -251,46 +260,66 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </li>
                     <li>
                         <div class="col-md-6 pricing-plans">
-                            <p>Once upon a time all the Rivers combined to protest against the action of the Sea in
-                                making their waters salt.
-                                “When we come to you,” said they to the Sea.</p>
+                            <p>Programuję na iOS i przez to wspieram szukanie domu dla bezdomnych zwierząt. To jest naprawdę super!</p>
                             <div class="pic1">
-                                <img src="images/m5.jpg" alt=""/>
+                                <img src="images/m7.jpg" alt=""/>
                             </div>
                             <div class="pic-info">
-                                <h5>Andrzej Wójcicki</h5>
-                                <a href="#">GRAFIK</a>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="col-md-6 pricing-plans">
-                            <p>A shoe is not only a design, but it's a part of your body language, the way you walk. The
-                                way you're going to move is quite dictated by your shoes.</p>
-                            <div class="pic1">
-                                <img src="images/m3.jpg" alt=""/>
-                            </div>
-                            <div class="pic-info">
-                                <h5>Tomasz Nastały</h5>
-                                <a href="#">PROGRAMISTA - FRONT-END</a>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-                    <li>
-                        <div class="col-md-6 pricing-plans">
-                            <p>Denerwuje się gdy słyszę, że w tym kraju nic się nie da zrobić i, że nic od nas nie zależy. Dlatego ile tylko mogę wspieram zespół i projekt Na4Łapy</p>
-                            <div class="pic1">
-                                <img src="images/m4.jpg" alt=""/>
-                            </div>
-                            <div class="pic-info">
-                                <h5>Marcin Rudzki</h5>
-                                <a href="#">PROGRAMISTA - BACKEND</a>
+                                <h5>Andrzej Butkiewicz</h5>
+                                <span>PROGRAMISTA iOS</span><br>
+                               <!-- <a href="h#">PPROGRAMISTA iOS</a>-->
                             </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="col-md-6 pricing-plans">
                             <p>Chcesz rozwijać swoje umiejętnośći programowania? Szukasz ciekawych projektów? DOŁĄCZ DO
+                                NAS ;-)</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li>
+                        <div class="col-md-6 pricing-plans">
+                            <p>W projekcie odpowiadam za wygląd aplikacji i grafiki. Kilka lat temu sam adoptowałem psa i liczę, że dzięki Na4Łapy wiele innych psów, także znajdzie dom.</p>
+                            <div class="pic1">
+                                <img src="images/m5.jpg" alt=""/>
+                            </div>
+                            <div class="pic-info">
+                                <h5>Andrzej Wójcicki</h5>
+                                <span>GRAFIK</span>
+                                <!--<a href="#">GRAFIK</a>-->
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-md-6 pricing-plans">
+                            <p>W projekcie Na4Łapy zajmowałem się panelem, dzięki któremu schroniska będą mogły w prosty sposób zarządzać aplikacją</p>
+                            <div class="pic1">
+                                <img src="images/m3.jpg" alt=""/>
+                            </div>
+                            <div class="pic-info">
+                                <h5>Tomasz Nastały</h5>
+                                <span>PROGRAMISTA - FRONT-END</span>
+                               <!-- <a href="#">PROGRAMISTA - FRONT-END</a>-->
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li>
+                        <div class="col-md-6 pricing-plans">
+                            <p>Denerwuje się gdy słyszę, że w tym kraju nic się nie da zrobić i, że nic od nas nie zależy. Dlatego robię ile tylko mogę i wspieram zespół Na4Łapy!</p>
+                            <div class="pic1">
+                                <img src="images/m4.jpg" alt=""/>
+                            </div>
+                            <div class="pic-info">
+                                <h5>Marcin Rudzki</h5>
+                                <span>PROGRAMISTA - BACKEND</span><br>
+                                <a href="http://marcin.rudzki.net">marcin.rudzki.net</a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-md-6 pricing-plans">
+                            <p style="font-weight:600">Chcesz rozwijać swoje umiejętnośći programowania? Szukasz ciekawych projektów? DOŁĄCZ DO
                                 NAS ;-)</p>
                             <div class="clearfix"></div>
                         </div>
@@ -306,7 +335,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="theme">
     <div class="container">
         <h3 class="wow bounceIn" data-wow-delay="0.4s"><span>Pobierz aplikację</span> na system Android ;-)</h3>
-        <a class="view hvr-bounce-to-left wow bounceIn" data-wow-delay="0.4s" href="#features">O APLIKACJI</a>
+        <a class="view hvr-bounce-to-left wow bounceIn scroll" data-wow-delay="0.4s" href="#features">O APLIKACJI</a>
         <a class="download wow bounceIn" data-wow-delay="0.4s" href="https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy">POBIERZ APLIKACJĘ</a>
     </div>
 </div>
@@ -316,16 +345,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="pricing-text-bottom">
             <h3>Partnerzy</h3>
         </div>
+<div id="logotypy">
+        <div><a href="http://www.volanto.pl"><img src="images/volanto.png" width="150" height="150"
+                                             style="float: left; margin: 30px; text-align:center;" alt="www.volanto.pl"/></a></div>
+        <div><a href="http://www.kodujdlapolski.pl"><img src="images/kdp.png" width="221" height="123" style="float: left; margin: 30px; text-align:center;"
+             alt="www.kodujdlapolski.pl"/></a></div>
+       <div> <a href="http://www.schroniskopromyk.pl"><img src="images/promyk.jpg" width="261" height="60"
+                                                      style="float: left; margin: 30px; text-align:center;" alt="www.schroniskopromyk.pl"/></a></div>
+<div>      <a href="http://www.paylane.pl"><img src="images/paylane.jpg" width="242" height="125"
+                                             style="float: left; margin: 30px; text-align:center;" alt="www.paylane.pl"/></a></div>
 
-        <a href="http://www.volanto.pl"><img src="images/volanto.png" width="150" height="150"
-                                             style="float: left; margin: 30px; text-align:center;" alt=""/></a>
-        <img src="images/kdp.png" width="221" height="123" style="float: left; margin: 30px; text-align:center;"
-             alt=""/>
-        <a href="http://www.schroniskopromyk.pl"><img src="images/promyk.jpg" width="261" height="60"
-                                                      style="float: left; margin: 30px; text-align:center;" alt=""/></a>
-        <a href="http://www.paylane.pl"><img src="images/paylane.jpg" width="242" height="125"
-                                             style="float: left; margin: 30px; text-align:center;" alt=""/></a>
-
+    </div>
     </div>
 </div>
 <!---->
