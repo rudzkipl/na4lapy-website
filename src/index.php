@@ -13,20 +13,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <title>Na4Łapy</title>
     <link rel="shortcut icon" href="na4lapy_icon.ico" />
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-    <!-- jQuery (Bootstrap's JavaScript plugins) -->
+    <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
+   
+    <!-- jQuery (JavaScript plugins) -->
+
     <!-- Custom Theme files -->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="description" content="\"Na4Łapy\" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności."/>
+    <meta name="description" content="Na4Łapy to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności."/>
     <meta name="keywords" content="na4lapy na4łapy na 4 lapy łapy schronisko adopcja zwierzęta pomoc aplikacja sklep play android ios mobile tinder" >
     <meta name="robots" content="index,nofollow">
     <meta name="revisit-after" content="1 days">
 	<meta http-equiv="content-language" content="pl">
 	<meta name="author" content="na4lapy.org">
 	<meta name="Owner" CONTENT="na4lapy.org">
+    <link rel="alternate" hreflang="x-default" href="http://www.na4lapy.org/" />
     
      <!-- Scripts files -->
     <script type="application/x-javascript"> addEventListener("load", function () {
@@ -84,9 +88,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <ul>
                     <li class="active"><a href="/">Home</a></li>
                     <li><a class="scroll" href="#features">O aplikacji</a></li>
-                    <li><a class="scroll" href="#about-bottom">Współpraca</a></li>
-                    <li><a class="scroll" href="#testimonials">Zespół</a></li>
-                    <li><a class="scroll" href="#pricing">Partnerzy</a></li>
+                    <li><a class="scroll" href="#wspolpraca">Współpraca</a></li>
+                    <li><a class="scroll" href="#zespol">Zespół</a></li>
+                    <li><a class="scroll" href="#partnerzy">Partnerzy</a></li>
                     <li><a class="scroll" href="#contact">Kontakt</a></li>
                 </ul>
             </div>
@@ -160,7 +164,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!---->
-<div id="about-bottom" class="about-bottom">
+<div id="wspolpraca" class="wspolpraca">
     <div class="container">
         <div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.5s">
             <div class="device-text-bottom">
@@ -184,15 +188,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             auto: true,
             pager: true,
 			pause: true,
-			pauseControls: true,
+			pauseControls: false,
             speed: 1000,
 			timeout: 5000, 
             namespace: "callbacks",
         });
+		$('.callbacks').trigger('mouseenter');
+		
     });
 </script>
 <!---->
-<div id="testimonials" class="pricing">
+<div id="zespol" class="pricing">
     <div class="container">
         <div class="pricing-text">
             <h3>Zespół</h3>
@@ -200,10 +206,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- start slider -->
         <div class="pricing-grids">
             <div class="slider">
-                <ul class="rslides" id="slider2">
+                <ul class="rslides" id="slider2" style="overflow:visible;">
                     <li>
                         <div class="col-md-6 pricing-plans">
-                            <p>W projekcie aplikacji "Na4Łapy" zajmuje się koordynacją prac i spinaniem wszystkich
+                            <p>W projekcie aplikacji "Na4Łapy" zajmuję się koordynacją prac i spinaniem wszystkich
                                 elementów w całość.
                                 To świetne doświadczenie robić to co się lubi i jeszcze przy tym pomagać innym.</p>
                             <div class="pic1">
@@ -318,7 +324,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </li>
                     <li>
                         <div class="col-md-6 pricing-plans">
-                            <p>Denerwuje się gdy słyszę, że w tym kraju nic się nie da zrobić i, że nic od nas nie zależy. Dlatego robię ile tylko mogę i wspieram zespół Na4Łapy!</p>
+                            <p>Denerwuje się gdy słyszę, że w tym kraju nic się nie da zrobić, że nic od nas nie zależy. Dlatego robię ile mogę i wspieram zespół Na4Łapy!</p>
                             <div class="pic1">
                                 <img src="images/m4.jpg" alt=""/>
                             </div>
@@ -331,13 +337,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div>
                         
                          <div class="col-md-6 pricing-plans">
-                            <p>Na codzień tester aplikacji mobilnych, a hobbystycznie student informatyki na Politechnice Śląskiej. W projekcie zajmuję się programowaniem na platormę Android.</p>
+                            <p>Na codzień tester aplikacji mobilnych, a hobbystycznie student informatyki na Politechnice Śląskiej. W projekcie zajmuję się programowaniem na platformę Android.</p>
                              <div class="pic1">
                                 <img src="images/m8.jpg" alt=""/>
                             </div>
                             <div class="pic-info">
                                 <h5>Jakub Majcher</h5>
-                                <span>PROGRAMISTA - TESTER ANDROID</span><br>
+                                <span>PROGRAMISTA ANDROID</span><br>
                                <!-- <a href="h#">PPROGRAMISTA iOS</a>-->
                             </div>
                             
@@ -345,13 +351,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div><div class="clearfix"></div>
                     </li>
                        <li>
-                        <div class="text-center pricing-plans" >
-                           <p style="font-weight:600">Chcesz rozwijać swoje umiejętnośći programowania? Szukasz ciekawych projektów? <br> DOŁĄCZ DO
+                       
+                     
+                        
+                         <div class="col-md-6 pricing-plans">
+                           <p style="font-weight:600; text-align:center;">Chcesz rozwijać swoje umiejętnośći programowania? <br>Szukasz ciekawych projektów? <br><br> DOŁĄCZ DO
                                 NAS ;-)</p>
                             
+                            <div class="clearfix"></div>
                         </div>
-                       
-                        <div class="clearfix"></div>
+                        
+                            <div class="col-md-6 pricing-plans" >
+                           <div class="pic-info " >
+                                <img id="GryzioNeedsYou" src="images/co-zgubiles.png"alt=""/>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <div class="clearfix"></div>                       
+                     
                     </li>
                 </ul>
             </div>
@@ -360,7 +378,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!---->
-<div class="theme">
+<div id="proba" class="theme">
     <div class="container">
         <h3 class="wow bounceIn" data-wow-delay="0.4s"><span>Pobierz aplikację</span> na system Android ;-)</h3>
         <a class="view hvr-bounce-to-left wow bounceIn scroll" data-wow-delay="0.4s" href="#features">O APLIKACJI</a>
@@ -368,7 +386,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!---->
-<div id="pricing" class="pricing-bottom">
+<div id="partnerzy" class="pricing-bottom">
     <div class="container">
         <div class="pricing-text-bottom">
             <h3>Partnerzy</h3>
@@ -454,7 +472,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
          };
          
         $().UItoTop({easingType: 'easeOutQuart'});
+		
+		// Slider
+		 $('.callbacks').trigger('mouseenter');
+		 
     });
+	
+	
+	function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+	
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+$my_global_var = false;
+
+$(window).scroll(function(){
+   if (isScrolledIntoView($('#slider2'))){
+      //fire whatever you what 	  
+     if ($my_global_var === false) {
+		 $my_global_var = true;
+		$('.callbacks').trigger('mouseleave');
+		$('.callbacks').trigger('mouseleave');
+	 }
+   }
+})
+	
 </script>
 <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!---->

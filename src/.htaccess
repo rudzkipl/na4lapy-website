@@ -1,8 +1,5 @@
 AddDefaultCharset UTF-8
-
-:Location "\*.(tpl|ini|log)|error\.txt"
-Access deny all
-:Location
+Options -DirList
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
@@ -30,3 +27,6 @@ ExpiresByType application/x-javascript "access plus 86400 seconds"
 FilesMatch "(\.js\.gz|\.css\.gz)$">
 Header append Vary Accept-Encoding
 
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^na4lapy.org$ [NC]
+RewriteRule ^(.*)$ http://www.na4lapy.org/$1 [R=301,nc]
