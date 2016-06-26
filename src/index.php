@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Na4Łapy</title>
+    <title>Aplikacja Na4Łapy</title>
     <link rel="shortcut icon" href="na4lapy_icon.ico" />
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
     <!-- jQuery -->
