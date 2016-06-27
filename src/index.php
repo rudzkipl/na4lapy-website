@@ -254,7 +254,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="col-md-6 pricing-plans">
                             <p>Dołączyłam do projektu, gdyż los porzuconych zwierząt nie był mi obojętny.
                                 Pomoc zespołu pozwoliła mi postawić pierwsze kroki w programowaniu na Androida,
-                                efektem czego jest ta świetna aplikacja.".</p>
+                                efektem czego jest ta świetna aplikacja.</p>
                             <div class="pic1">
                                 <img src="images/m2.jpg" alt=""/>
                             </div>
