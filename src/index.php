@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Aplikacja Na4Łapy |Android|iOS| Oficjalna strona</title>
+<title>Aplikacja Na4Łapy - Oficjalna strona</title>
 <link rel="shortcut icon" href="na4lapy_icon.ico" />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
 <!-- jQuery -->
@@ -154,7 +154,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.5s">
       <div class="device-text-bottom">
         <h3>Współpraca</h3>
-        <p>Obecnie jesteśmy na etapie rozwijania nowych funkcjonalności w aplikacji na system Android oraz iOS. Jeżeli jesteś zainteresowany dodaniem do naszej aplikacji schroniska znajdującego się w Twojej okolicy - skontaktuj się z nami. Chętnie rozszerzymy naszą bazę i zespół  ;-)</p>
+        <div class="row about-list wow fadeInRight"  data-wow-delay="0.5s"><div class="col-md-3"><img src="images/screen.png" width="90" height="90" alt=""/></div>
+        <div class="col-md-9">
+          <h2>Aplikacja</h2>
+        </div><p>Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 2016 roku.</p></div>
+        <div class="row about-list wow fadeInRight" data-wow-delay="0.5s"><div class="col-md-3"><img src="images/set.png" width="90" height="90" alt=""/></div>
+        <div class="col-md-9">
+          <h2>Schroniska</h2>
+        </div><p>Jesteśmy w trakcie tworzenia instrukcji dla schronisk na terytorium Polski, chcących korzystać do aplikacji Na4Łapy</p></div>
       </div>
     </div>
     <div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.5s"> <img src="images/phn3.jpg" alt=""/> </div>
