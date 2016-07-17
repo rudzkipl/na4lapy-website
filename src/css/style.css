@@ -280,8 +280,8 @@ background:#f2f2f2;
 padding:3% 0;
 }
 .device-text-bottom{
-text-align:left;
-padding-top:5em;
+	text-align: left;
+	padding-top: 4em;
 }
 .about-customize {
 width:45%;
@@ -836,6 +836,17 @@ color: #fff;
 	top: -60px;
 	float:left;
 }
+.row.about-list.wow.fadeInRight .col-md-3 img {
+	padding-top: 2em;
+}
+.img-logo {
+	float: left;
+	 margin: 30px;
+	  text-align:center;
+
+}
+
+
 
 
 
@@ -1248,6 +1259,32 @@ height: 340px;
 .col-md-6.banner-text.wow.fadeInRight img {
 	max-height: 31px;
 }
+.col-md-6.about-customize.wow.fadeInRight .device-text-bottom h3 {
+	text-align: center;
+	background-position:center bottom;	
+}
+
+.device-text-bottom .row.about-list.wow.fadeInRight .col-md-3 {
+	text-align: center;
+}
+.row.about-list.wow.fadeInRight .col-md-3 img {
+
+margin-left:auto; 
+margin-right:auto;
+}
+.row.about-list.wow.fadeInRight .col-md-9 h2 {
+	text-align: center;
+}
+.device-text-bottom .row.about-list.wow.fadeInRight .col-md-9 {
+	padding-left: 2em;
+	padding-right: 2em;
+
+}
+
+
+
+
+
 }
 @media(max-width: 480px){
 span.menu:before {
@@ -1446,6 +1483,12 @@ font-size: 1em;
 	top: -20px;
 	left:20px;
 }
+.img-small {
+	width: 300px;
+    height: auto;
+
+}
+
 
 
 
@@ -1546,9 +1589,16 @@ margin-right:1em;
 	top: -10px;
 	left: 20px;
 }
+.img-small {
+	width: 225px;
+	height: auto;
+
+}
+
 }
 
 @media (min-width:1440px){
+
 .pricing {
 	min-height: 660px;
 	;

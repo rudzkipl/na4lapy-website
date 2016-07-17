@@ -152,16 +152,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div id="wspolpraca" class="wspolpraca">
   <div class="container">
     <div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.5s">
-      <div class="device-text-bottom">
+      <div class="device-text-bottom" style="padding-top:3em;">
         <h3>Współpraca</h3>
-        <div class="row about-list wow fadeInRight"  data-wow-delay="0.5s"><div class="col-md-3"><img src="images/screen.png" width="90" height="90" alt=""/></div>
+        <div class="row about-list wow fadeInRight" data-wow-delay="0.5s"><div class="col-md-3"><img src="images/screen.png" width="90" height="90" alt="" class="img-responsive" style="padding-top:2em;"/></div>
         <div class="col-md-9">
           <h2>Aplikacja</h2>
-        </div><p>Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 2016 roku.</p></div>
-        <div class="row about-list wow fadeInRight" data-wow-delay="0.5s"><div class="col-md-3"><img src="images/set.png" width="90" height="90" alt=""/></div>
+        <p style="margin-top:0;">Jesteśmy na etapie rozwijania nowych funkcjonalności w aplikacji na system Android oraz iOS.
+Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 2016 roku.</p></div></div>
+        <div class="row about-list wow fadeInRight" data-wow-delay="0.5s"><div class="col-md-3"><img src="images/set.png" width="90" height="90" alt="" class="img-responsive" style="padding-top:2em;"/></div>
         <div class="col-md-9">
           <h2>Schroniska</h2>
-        </div><p>Jesteśmy w trakcie tworzenia instrukcji dla schronisk na terytorium Polski, chcących korzystać do aplikacji Na4Łapy</p></div>
+        <p style="margin-top:0;">Jesteśmy w trakcie tworzenia instrukcji dla schronisk na terytorium Polski, które chcą zostać dodane do aplikacji Na4Łapy. Jeśli chcesz dodać do aplikacji schronisko znajdujące się w Twojej okolicy - skontaktuj się z nami.</p></div></div>
       </div>
     </div>
     <div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.5s"> <img src="images/phn3.jpg" alt=""/> </div>
@@ -352,14 +353,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div id="logotypy" style="align-content:center; text-align:center;">
       <div> <a href="http://www.volanto.pl"> <img src="images/volanto.png" width="150" height="150"
                 	style="float: left; margin: 30px; text-align:center;" alt="www.volanto.pl"/> </a> </div>
-      <div> <a href="http://www.kodujdlapolski.pl"> <img src="images/kdp.png" width="220" height="123" style="float: left; margin: 30px; text-align:center;"
+      <div> <a href="http://www.kodujdlapolski.pl"> <img src="images/kdp.png" width="220" height="123"  class="img-logo"
              alt="www.kodujdlapolski.pl"/></a> </div>
-      <div> <a href="http://www.schroniskopromyk.pl"><img src="images/promyk.jpg" width="464" height="108"
-                                                      style="float: left; margin: 30px; text-align:center;" alt="www.schroniskopromyk.pl"/></a> </div>
-      <div> <a href="http://www.paylane.pl"><img src="images/paylane.jpg" width="261" height="150"
-                                             style="float: left; margin: 30px; text-align:center;" alt="www.paylane.pl"/></a> </div>
+      <div> <a href="http://www.schroniskopromyk.pl"><img src="images/promyk.jpg" width="464" height="108" class="img-logo img-small"
+                                                      class="img-logo"alt="www.schroniskopromyk.pl"/></a> </div>
+      <div> <a href="http://www.paylane.pl"><img src="images/paylane.jpg" width="261" height="150" class="img-logo img-small"
+                                            class="img-logo" alt="www.paylane.pl"/></a> </div>
       <div> <a href="http://www.gdansk.pl"><img src="images/gdansk.png" width="198" height="150"
-                                             style="float: left; margin: 30px; text-align:center;" alt="http://www.gdansk.pl"/></a> </div>
+                                             class="img-logo" alt="http://www.gdansk.pl"/></a> </div>
     </div>
   </div>
 </div>
