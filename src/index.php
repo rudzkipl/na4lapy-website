@@ -1,6 +1,3 @@
-<?php 
-header("Cache-Control: max-age=86400"); // HTTP 1.1.
-?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -30,6 +27,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="content-language" content="pl">
 <meta name="author" content="na4lapy.org">
 <meta name="Owner" CONTENT="na4lapy.org">
+<meta property="og:image" content="http://www.na4lapy.org/images/phn.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="453">
+<meta property="og:image:height" content="519">
+<meta property="og:description" content=""Na4Łapy" to aplikacja pozwalająca przeglądać zdjęcia i opisy zwierząt znajdujących się pod opieką gdańskiego schroniska Promyk. Użytkownik może w prosty sposób dodawać psy i koty do listy ulubionych oraz przekazywać datki na zwierzęta w formie elektronicznych mikropłatności." />
+<meta property="og:url"content="http://www.na4lapy.org/" />
+<meta property="og:title" content="Na 4 Łapy - Aplikacja " />
+
 <link rel="alternate" hreflang="x-default" href="http://www.na4lapy.org/" />
 
 <!-- Scripts files -->
@@ -80,7 +85,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="banner">
   <div class="container">
     <div class="header">
-      <div class="logo wow fadeInLeft" data-wow-delay="0.5s"> <a href="http://www.na4lapy.org"><img src="images/logowww.png" width="252" height="62" alt=""/></a> </div>
+      <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+		<a href="http://www.na4lapy.org">
+		<img src="images/logowww.png" width="252" height="62" alt="Na 4 Łapy" title="www.Na4Lapy.org" alt="http://na4lapy.org"/>
+		</a>
+	  </div>
       <div class="top-menu"> <span class="menu"></span>
         <ul>
           <li class="active"><a href="/">Home</a></li>
@@ -114,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     TERAZ</a>
                     <a class="view hvr-bounce-to-left scroll" href="#features">O APLIKACJI</a>--> 
         <a href='https://play.google.com/store/apps/details?id=pl.kodujdlapolski.na4lapy&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Na4Łapy w Sklep Play' src='images/google-play-badge.png'/></a> <img class="grayed" alt='Dostępne wkrótce w iTunes' title='Dostępne wkrótce w iTunes' src='images/appstore.png'/> </div>
-      <div class="col-md-6 banner-pic wow fadeInLeft auto-width" data-wow-delay="0.5s"> <img src="images/phn.png" alt=""/> </div>
+      <div class="col-md-6 banner-pic wow fadeInLeft auto-width" data-wow-delay="0.5s"><img src="images/phn.png" alt="Aplikacja" /> </div>
       <div class="clearfix"></div>
     </div>
   </div>
@@ -351,10 +360,8 @@ Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 20
       <h3>Partnerzy</h3>
     </div>
     <div id="logotypy" style="align-content:center; text-align:center;">
-      <div> <a href="http://www.volanto.pl"> <img src="images/volanto.png" width="150" height="150"
-                	style="float: left; margin: 30px; text-align:center;" alt="www.volanto.pl"/> </a> </div>
-      <div> <a href="http://www.kodujdlapolski.pl"> <img src="images/kdp.png" width="220" height="123"  class="img-logo"
-             alt="www.kodujdlapolski.pl"/></a> </div>
+      <div> <a href="http://www.volanto.pl"><img src="images/v1.png" width="150" height="150" class="img-logo" /></a></div>
+      <div> <a href="http://www.kodujdlapolski.pl"><img src="images/kdp.png" width="220" height="123"  class="img-logo" alt="www.kodujdlapolski.pl"/></a></div>
       <div> <a href="http://www.schroniskopromyk.pl"><img src="images/promyk.jpg" width="464" height="108" class="img-logo img-small"
                                                       class="img-logo"alt="www.schroniskopromyk.pl"/></a> </div>
       <div> <a href="http://www.paylane.pl"><img src="images/paylane.jpg" width="261" height="150" class="img-logo img-small"
