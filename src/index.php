@@ -250,7 +250,7 @@ Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 20
                 efektem czego jest ta świetna aplikacja.</p>
               <div class="pic1"> <img src="images/m2.jpg" alt=""/> </div>
               <div class="pic-info">
-                <h5>Małgorzata Syska</h5>
+                <h5>Małgorzata Sałańska</h5>
                 <span>PROGRAMISTA ANDROID</span> 
                 <!-- <a href="#">PROGRAMISTA ANDROID</a>--> 
               </div>
@@ -384,13 +384,16 @@ Otwarty kod źródłowy znajdzie się na GitHubie po refaktoryzacji do końca 20
         <p><script type="text/javascript"> 
     gen_tel('600','255','751');
 </script> </p>
+        <p>Małgorzata Sałańska </p>
+        <p><script type="text/javascript"> 
+    gen_tel('605','614','616');
+</script> </p>
       </div>
       <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
         <div class="icon2"></div>
         <p>Miejsce spotkań</p>
         <p>Gdański Inkubator Przedsiębiorczości STARTER</p>
         <p>ul. Lęborska 3B</p>
-        <p>siedziba firmy Volanto Sp. z o.o.</p>
       </div>
       <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
         <div class="icon3"></div>
